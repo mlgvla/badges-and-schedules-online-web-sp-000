@@ -15,7 +15,7 @@ def assign_rooms(array)
 
   array.each do |name|
     room = array.index + 1
-    
+
     assign_array.push("Hello, #{name}! You'll be assigned to room #{room}!")
   end
   return assign_array
